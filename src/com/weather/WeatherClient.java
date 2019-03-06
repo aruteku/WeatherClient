@@ -6,7 +6,11 @@ import com.weather.service.LocationService;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
-
+/**
+ * This class is required to run the weatherclient application
+ * @author tekurala
+ *
+ */
 public class WeatherClient {
 
 	public static void main(String[] args) {

@@ -3,7 +3,10 @@ package com.weather.config;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-
+/**
+ * This class will load the properties from file located in the classpath
+ * @author tekurala
+ */
 public class Configuration {
 	
 	private static Properties properties = null;

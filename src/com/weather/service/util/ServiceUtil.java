@@ -4,9 +4,19 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
+/**
+ * This class is used to get data from API
+ * @author tekurala
+ *
+ */
 public class ServiceUtil {
 
+	/**
+	 * This method will used to get the data from service
+	 * @param url
+	 * @return
+	 * @throws Exception
+	 */
 	public static String getDataFromService(URL url) throws Exception {
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 		conn.setRequestMethod("GET");

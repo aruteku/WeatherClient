@@ -2,7 +2,10 @@ package com.weather.config;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
+/**
+ * This class will create a url for location and forecast services
+ * @author tekurala
+ */
 public class ConfigurationUtil extends Configuration {
 	
 	public static URL getLocationUrl(String postalCode) {
